@@ -1,6 +1,6 @@
-# Template API .NET Core
-Template de estrutura mínima para criação de API .NET
+# API .NET Core
 
+Estrutura de API utilizando .NET Core. 
 
 
 ## Referências
