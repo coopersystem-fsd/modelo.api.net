@@ -35,11 +35,6 @@ CREATE TABLE `User` ( `Id` INT NOT NULL , `Cpf` VARCHAR(255) NOT NULL , `BirthDa
 INSERT INTO `User` (`Id`, `Cpf`, `BirthDate`, `Name`) VALUES ('1', '01569347603', '1989-06-30', 'vinicius');
 ```
 
-## Fazer
-
-- Abstrair informações definidas manualmente no Context.
-- [Adicionar suporte para utilização de containers](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#monolithic-applications-and-containers)
-
 ## Referências
 
 - [Projeto original](https://github.com/alex250195/Modelo.Api)
