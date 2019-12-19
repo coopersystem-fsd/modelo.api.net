@@ -1,6 +1,6 @@
 # Modelo de API .NET Core + DDD
 
-O **modelo.api** é um projeto open source, escrito em .Net Core. À partir dele, é possível ter uma arquitetura simplificada baseando-se no DDD (Design Domain Driven).
+O **modelo.api.net** é um projeto open source, escrito em .Net Core. À partir dele, é possível ter uma arquitetura simplificada baseando-se no DDD (Design Domain Driven).
 
 O projeto foi agrupado da seguinte maneira:
 
