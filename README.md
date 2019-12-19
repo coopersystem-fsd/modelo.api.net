@@ -38,7 +38,7 @@ INSERT INTO `User` (`Id`, `Cpf`, `BirthDate`, `Name`) VALUES ('1', '01569347603'
 ## Fazer
 
 - Abstrair informações definidas manualmente no Context.
-
+- [Adicionar suporte para utilização de containers](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#monolithic-applications-and-containers)
 
 ## Referências
 
