@@ -29,6 +29,12 @@ namespace Modelo.Application
             }
 
             app.UseMvc();
+            /*app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=User}/{action=Get}/{id?}");
+            });*/
         }
     }
 }

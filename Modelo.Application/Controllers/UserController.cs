@@ -11,11 +11,12 @@ using Modelo.Service.Validators;
 namespace Modelo.Application.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Usuario")]
+    [Route("api/user")]
     public class UserController : Controller
     {
         private BaseService<User> service = new BaseService<User>();
 
+        [HttpPost(Name = "Post User")]
         public IActionResult Post([FromBody] User item)
         {
             try
@@ -34,6 +35,7 @@ namespace Modelo.Application.Controllers
             }
         }
 
+        [HttpPut(Name = "Put User")]
         public IActionResult Put([FromBody] User item)
         {
             try
@@ -52,6 +54,7 @@ namespace Modelo.Application.Controllers
             }
         }
 
+        [HttpDelete(Name = "Delete User")]
         public IActionResult Delete(int id)
         {
             try
@@ -70,6 +73,7 @@ namespace Modelo.Application.Controllers
             }
         }
 
+        [HttpGet]
         public IActionResult Get()
         {
             try
